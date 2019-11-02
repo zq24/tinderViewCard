@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardView" customModule="TinderViewCard" customModuleProvider="target">
+            <connections>
+                <outlet property="jobDescriptionTextView" destination="Jqc-00-wZq" id="oZN-R2-Fqd"/>
+                <outlet property="view" destination="iN0-l3-epB" id="SM3-gK-YOr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" editable="NO" text="Test" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jqc-00-wZq" userLabel="Job Description">
+                    <rect key="frame" x="8" y="93" width="224" height="299"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWt-KP-Oeh" userLabel="Job Title">
+                    <rect key="frame" x="70" y="52" width="100" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CWt-KP-Oeh" secondAttribute="trailing" constant="70" id="Hpn-Wi-Mao"/>
+                <constraint firstItem="CWt-KP-Oeh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="70" id="KJQ-Bh-UdE"/>
+                <constraint firstItem="Jqc-00-wZq" firstAttribute="top" secondItem="CWt-KP-Oeh" secondAttribute="bottom" constant="20" id="WtJ-s2-1Km"/>
+                <constraint firstItem="Jqc-00-wZq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="cDg-yv-xeF"/>
+                <constraint firstItem="CWt-KP-Oeh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="eFZ-Km-xlo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Jqc-00-wZq" secondAttribute="bottom" constant="8" id="pYG-JL-9XL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Jqc-00-wZq" secondAttribute="trailing" constant="8" id="qgX-0l-17F"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="50.724637681159422" y="34.821428571428569"/>
+        </view>
+    </objects>
+</document>

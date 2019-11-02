@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7833B6F1236C8E0A0056A487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B6F0236C8E0A0056A487 /* AppDelegate.swift */; };
+		7833B6F3236C8E0A0056A487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B6F2236C8E0A0056A487 /* SceneDelegate.swift */; };
+		7833B6F5236C8E0A0056A487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B6F4236C8E0A0056A487 /* ViewController.swift */; };
+		7833B6F8236C8E0A0056A487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7833B6F6236C8E0A0056A487 /* Main.storyboard */; };
+		7833B6FA236C8E0A0056A487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7833B6F9236C8E0A0056A487 /* Assets.xcassets */; };
+		7833B6FD236C8E0A0056A487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7833B6FB236C8E0A0056A487 /* LaunchScreen.storyboard */; };
+		7833B705236C92110056A487 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B704236C92110056A487 /* MainPageViewController.swift */; };
+		7833B708236CB4D70056A487 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B707236CB4D70056A487 /* CardView.swift */; };
+		7833B70A236CB4F60056A487 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7833B709236CB4F60056A487 /* CardView.xib */; };
+		7833B70C236CF3F90056A487 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B70B236CF3F90056A487 /* Struct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7833B6ED236C8E0A0056A487 /* TinderViewCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderViewCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7833B6F0236C8E0A0056A487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7833B6F2236C8E0A0056A487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7833B6F4236C8E0A0056A487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7833B6F7236C8E0A0056A487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7833B6F9236C8E0A0056A487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7833B6FC236C8E0A0056A487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7833B6FE236C8E0A0056A487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7833B704236C92110056A487 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		7833B707236CB4D70056A487 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7833B709236CB4F60056A487 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		7833B70B236CF3F90056A487 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7833B6EA236C8E0A0056A487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7833B6E4236C8E090056A487 = {
+			isa = PBXGroup;
+			children = (
+				7833B6EF236C8E0A0056A487 /* TinderViewCard */,
+				7833B6EE236C8E0A0056A487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7833B6EE236C8E0A0056A487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7833B6ED236C8E0A0056A487 /* TinderViewCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7833B6EF236C8E0A0056A487 /* TinderViewCard */ = {
+			isa = PBXGroup;
+			children = (
+				7833B706236CB44D0056A487 /* Card */,
+				7833B6F0236C8E0A0056A487 /* AppDelegate.swift */,
+				7833B70B236CF3F90056A487 /* Struct.swift */,
+				7833B6F2236C8E0A0056A487 /* SceneDelegate.swift */,
+				7833B6F4236C8E0A0056A487 /* ViewController.swift */,
+				7833B704236C92110056A487 /* MainPageViewController.swift */,
+				7833B6F6236C8E0A0056A487 /* Main.storyboard */,
+				7833B6F9236C8E0A0056A487 /* Assets.xcassets */,
+				7833B6FB236C8E0A0056A487 /* LaunchScreen.storyboard */,
+				7833B6FE236C8E0A0056A487 /* Info.plist */,
+			);
+			path = TinderViewCard;
+			sourceTree = "<group>";
+		};
+		7833B706236CB44D0056A487 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				7833B707236CB4D70056A487 /* CardView.swift */,
+				7833B709236CB4F60056A487 /* CardView.xib */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7833B6EC236C8E0A0056A487 /* TinderViewCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7833B701236C8E0A0056A487 /* Build configuration list for PBXNativeTarget "TinderViewCard" */;
+			buildPhases = (
+				7833B6E9236C8E0A0056A487 /* Sources */,
+				7833B6EA236C8E0A0056A487 /* Frameworks */,
+				7833B6EB236C8E0A0056A487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderViewCard;
+			productName = TinderViewCard;
+			productReference = 7833B6ED236C8E0A0056A487 /* TinderViewCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7833B6E5236C8E090056A487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Zhaoming;
+				TargetAttributes = {
+					7833B6EC236C8E0A0056A487 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 7833B6E8236C8E090056A487 /* Build configuration list for PBXProject "TinderViewCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7833B6E4236C8E090056A487;
+			productRefGroup = 7833B6EE236C8E0A0056A487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7833B6EC236C8E0A0056A487 /* TinderViewCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7833B6EB236C8E0A0056A487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7833B6FD236C8E0A0056A487 /* LaunchScreen.storyboard in Resources */,
+				7833B6FA236C8E0A0056A487 /* Assets.xcassets in Resources */,
+				7833B70A236CB4F60056A487 /* CardView.xib in Resources */,
+				7833B6F8236C8E0A0056A487 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7833B6E9236C8E0A0056A487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7833B70C236CF3F90056A487 /* Struct.swift in Sources */,
+				7833B705236C92110056A487 /* MainPageViewController.swift in Sources */,
+				7833B6F5236C8E0A0056A487 /* ViewController.swift in Sources */,
+				7833B6F1236C8E0A0056A487 /* AppDelegate.swift in Sources */,
+				7833B6F3236C8E0A0056A487 /* SceneDelegate.swift in Sources */,
+				7833B708236CB4D70056A487 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7833B6F6236C8E0A0056A487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7833B6F7236C8E0A0056A487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7833B6FB236C8E0A0056A487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7833B6FC236C8E0A0056A487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7833B6FF236C8E0A0056A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7833B700236C8E0A0056A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7833B702236C8E0A0056A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinderViewCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ece564.TinderViewCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7833B703236C8E0A0056A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinderViewCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ece564.TinderViewCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7833B6E8236C8E090056A487 /* Build configuration list for PBXProject "TinderViewCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7833B6FF236C8E0A0056A487 /* Debug */,
+				7833B700236C8E0A0056A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7833B701236C8E0A0056A487 /* Build configuration list for PBXNativeTarget "TinderViewCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7833B702236C8E0A0056A487 /* Debug */,
+				7833B703236C8E0A0056A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7833B6E5236C8E090056A487 /* Project object */;
+}
